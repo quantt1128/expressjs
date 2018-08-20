@@ -4,7 +4,7 @@ var config = {
       port: 3000,
     },
     database: {
-      url: 'mongodb://localhost/express-app_dev'
+      url: 'mongodb://localhost:27017/express'
     }
   },
   testing: {

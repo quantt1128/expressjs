@@ -8,3 +8,9 @@ exports.index = function (req, res) {
     title: 'express-app'
   });
 };
+
+exports.something = function (req, res) {
+  res.render('something', {
+    title: 'something-app'
+  });
+};

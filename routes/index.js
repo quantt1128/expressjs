@@ -16,4 +16,7 @@ var indexRouter = express.Router();
 indexRouter.route('/')
   .all(controllers.index);
 
+indexRouter.route('/something')
+  .all(controllers.something);
+
 exports.indexRouter = indexRouter;
